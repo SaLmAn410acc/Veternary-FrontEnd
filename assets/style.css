@@ -1,5 +1,7 @@
 body h1,
-a,
+h3,
+h2,
+h4 a,
 p {
   font-family: "Poppins", sans-serif;
 }
@@ -164,7 +166,12 @@ p {
 
 .sec-2-right-img {
   position: absolute;
-  background-image: url(./images/video2.png);
+  background-image: linear-gradient(
+      0deg,
+      rgba(255, 197, 0, 0.5),
+      rgba(255, 197, 0, 0.5)
+    ),
+    url(./images/video2.png);
   background-size: cover;
   width: 100%;
   max-width: 328px;
@@ -173,7 +180,8 @@ p {
   z-index: 2;
 }
 
-.sec-2-right > i {
+.sec-2-right > a > i {
+  color: white;
   position: absolute;
   right: 130px;
   top: 123px;
@@ -233,8 +241,8 @@ p {
 .sec-3-wrapper > p {
   display: inline-block;
   color: white;
-  font-size: 19px;
-  max-width: 500px;
+  font-size: 24px;
+  max-width: 550px;
   width: 100%;
 }
 
@@ -279,7 +287,12 @@ p {
 
 .sec-4-right-img {
   position: absolute;
-  background-image: url(./images/video.jpg.png);
+  background-image: linear-gradient(
+      0deg,
+      rgba(255, 197, 0, 0.5),
+      rgba(255, 197, 0, 0.5)
+    ),
+    url(./images/video.jpg.png);
   background-size: cover;
   width: 100%;
   max-width: 328px;
@@ -288,7 +301,8 @@ p {
   z-index: 2;
 }
 
-.sec-4-right > i {
+.sec-4-right > a > i {
+  color: white;
   position: absolute;
   right: 130px;
   top: 123px;
@@ -356,8 +370,8 @@ p {
 .sec-5-wrapper > p {
   display: inline-block;
   color: white;
-  font-size: 19px;
-  max-width: 500px;
+  font-size: 24px;
+  max-width: 550px;
   width: 100%;
 }
 
@@ -386,3 +400,172 @@ p {
   color: white;
   text-decoration-line: line-through;
 }
+
+/* section 6 :start */
+
+.sec-6 {
+  padding: 60px 0px;
+}
+
+.sec-6-wrapper {
+  text-align: center;
+}
+
+.sec-6-wrapper h1 {
+  font-weight: bold;
+  font-size: 62px;
+}
+
+.sec-6-wrapper p {
+  display: inline-block;
+  margin: 5px 0px 55px 0px;
+  font-size: 24px;
+  max-width: 550px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+/* .sec-6-inner {
+  display: flex;
+} */
+
+.sec-6-inner-items img {
+  max-width: 342px;
+  width: 100%;
+}
+
+.sec-6-inner-items h3 {
+  font-size: 36px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  font-weight: bold;
+}
+
+.sec-6-inner-items p {
+  font-weight: 500;
+  max-width: 287px;
+  font-size: 19px;
+  width: 100%;
+  display: inline-block;
+}
+
+.sec-6-inner-items div a {
+  color: white;
+  background-color: #ffc500;
+  padding: 3px 8px;
+  border-radius: 68%;
+  margin: 0px 2px;
+}
+
+/* section 7 :start */
+
+.sec-7 {
+  background-image: linear-gradient(
+      0deg,
+      rgba(255, 197, 0, 0.8),
+      rgba(255, 197, 0, 0.8)
+    ),
+    url(./images/sec-7-bg.png);
+  background-size: cover;
+  padding: 190px 0px;
+}
+
+.sec-7-inner-items {
+  align-items: center;
+  text-align: center;
+}
+
+.sec-7-inner-items div img {
+  margin-bottom: 31px;
+}
+
+.sec-7-inner-items div h3 {
+  font-size: 31px;
+  color: white;
+}
+
+.sec-7-inner-items div h3:last-of-type {
+  font-weight: bold;
+}
+
+/* section 8 :start */
+
+.sec-8 {
+  padding: 60px 0px;
+}
+
+.sec-8-wrapper {
+  text-align: center;
+}
+
+.sec-8-wrapper h1 {
+  font-weight: bold;
+  font-size: 62px;
+}
+
+.sec-8-wrapper p {
+  display: inline-block;
+  margin: 5px 0px 55px 0px;
+  font-size: 18px;
+  max-width: 550px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+/* .sec-6-inner {
+  display: flex;
+} */
+
+.sec-8-inner-items {
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+  text-align: initial;
+}
+
+.sec-8-inner-items img {
+  max-width: 342px;
+  width: 100%;
+}
+
+.sec-8-inner-items h3 {
+  font-size: 28px;
+  margin-top: 18px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+/* .sec-8-inner-items p {
+  font-weight: 500;
+  max-width: 287px;
+  font-size: 19px;
+  width: 100%;
+  display: inline-block;
+} */
+
+.sec-8-inner-items p :first-of-type {
+  color: aqua;
+}
+
+.sec-8-inner-items div a {
+  color: white;
+  background-color: #ffc500;
+  padding: 3px 8px;
+  border-radius: 68%;
+  margin: 0px 2px;
+}
+
+.sec-8-inner-items h4 {
+  color: #00c0cb;
+  font-size: 18px;
+}
+
+.sec-8-inner-items a {
+  text-decoration: none;
+  color: #00bfcb;
+  font-weight: 600;
+  font-size: 21px;
+}
+
+/* .sec-8-inner-items div {
+  background-image: url(./images/realdoc1.png);
+  background-size: cover;
+} */
