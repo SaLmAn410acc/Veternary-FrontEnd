@@ -49,7 +49,6 @@ p {
 }
 
 #search-box-header {
-  /* display: flex; */
   float: right;
 }
 
@@ -89,14 +88,15 @@ p {
 
 .sec-1 > div {
   background-color: #ffc500;
+  padding: 100px 0px;
 }
 
-.sec-1-wrapper {
+/* .sec-1-wrapper {
   padding: 90px 222px;
   align-items: center;
   display: flex;
   justify-content: space-evenly;
-}
+} */
 
 .sec-1-right > a > img {
   max-width: 350px;
@@ -107,13 +107,13 @@ p {
 }
 
 .sec-1-left > h1 {
-  padding-right: 68px;
-
-  max-width: 787px;
+  /* padding-right: 69px; */
+  max-width: 660px;
   width: 100%;
   color: white;
-  font-size: 67px;
+  font-size: 65px;
   letter-spacing: 1px;
+  padding-top: 40px;
 }
 
 .sec-1-left > p {
@@ -121,7 +121,6 @@ p {
   width: 100%;
   color: white;
   font-size: 26px;
-  letter-spacing: 1px;
   margin: 35px 0px;
 }
 
@@ -244,10 +243,6 @@ p {
   font-size: 24px;
   max-width: 550px;
   width: 100%;
-}
-
-.sec-3-inner {
-  display: flex;
 }
 
 .sec-3-inner-items h3 {
@@ -517,8 +512,8 @@ p {
 } */
 
 .sec-8-inner-items {
-  box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
   text-align: initial;
+  padding: 0px;
 }
 
 .sec-8-inner-items img {
@@ -558,7 +553,7 @@ p {
   font-size: 18px;
 }
 
-.sec-8-inner-items a {
+.sec-8-inner-items > a:first-of-type {
   text-decoration: none;
   color: #00bfcb;
   font-weight: 600;
@@ -569,3 +564,75 @@ p {
   background-image: url(./images/realdoc1.png);
   background-size: cover;
 } */
+
+/* footer :start */
+
+.last-sec {
+  background-color: #303030;
+  padding: 130px 0px;
+}
+
+.footer-search {
+  padding: 15px 10px;
+  font-size: 17px;
+  border: none;
+  width: 350px;
+  background-color: #ffc500;
+}
+.footer-btn {
+  float: right;
+  padding: 15px 45px;
+  background: #00bfcb;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.footer-btn > i {
+  color: white;
+}
+
+.last-sec-inner-items {
+  display: flex;
+  flex-direction: column;
+}
+
+.last-sec-right-items {
+  text-align: right;
+}
+
+.last-sec-inner-items h1 {
+  font-size: 30px;
+  color: white;
+}
+
+.last-sec-inner-items a {
+  font-size: 22px;
+  text-decoration: none !important;
+  cursor: pointer;
+  color: white;
+}
+
+.last-sec-inner-items a:hover {
+  color: white;
+}
+
+.last-sec-right-items h1 {
+  font-size: 30px;
+  color: white;
+}
+
+.last-sec-right-items p {
+  font-size: 22px;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.last-sec-right-items > div a {
+  color: #303030;
+  background-color: white;
+  padding: 5px 10px;
+  border-radius: 50%;
+  margin: 24px 4px;
+  display: inline-block;
+}
