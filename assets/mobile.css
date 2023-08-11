@@ -30,7 +30,7 @@
 
 /* ===================================== */
 
-/* 992 */
+/* 994 */
 /* ===================================== */
 
 @media screen and (max-width: 994px) {
@@ -164,7 +164,7 @@
   }
 
   .sec-8-inner-items > h4 {
-    font-size: 16px;
+    font-size: 17px;
   }
 
   .sec-8-wrapper p {
@@ -247,7 +247,17 @@
   }
 
   .sec-1-left {
+    text-align: center;
     margin-bottom: 60px;
+  }
+
+  .sec-1-left > h1 {
+    max-width: 570px;
+    width: 100%;
+  }
+
+  .sec-1-left > p {
+    max-width: 493px;
   }
 
   .sec-1-right {
@@ -312,26 +322,47 @@
   }
 
   .sec-8-inner-items > h3 {
-    font-size: 18px;
+    font-size: 24px;
   }
 
   .sec-8-inner-items > h4 {
-    font-size: 13px;
+    font-size: 17px;
   }
 
   .sec-8-inner-items p {
-    max-width: 87px;
-    font-size: 13px;
+    max-width: 452px;
+    width: 100%;
+    font-size: 17px;
   }
 
   .sec-8-inner-items > a:first-of-type {
-    font-size: 16px;
+    font-size: 21px;
+  }
+
+  .last-sec-inner-items {
+    align-items: center;
+    margin-top: 30px;
+  }
+
+  .col-md-6.last-sec-right-items {
+    display: inline-block;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .last-sec {
+    background-color: #303030;
+    padding: 65px 0px;
   }
 }
 
 /* ===================================== */
 
-/* 580 */
+/* 540 */
+
+@media screen and (max-width: 540) {
+}
+
 /* ===================================== */
 
 /* ===================================== */
