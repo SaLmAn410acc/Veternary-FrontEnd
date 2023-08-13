@@ -635,3 +635,17 @@ p {
 }
 
 /* media queries */
+
+/* slick slider css */
+
+.right-arrow {
+  position: absolute;
+  top: 32%;
+  left: -3%;
+}
+
+.left-arrow {
+  position: absolute;
+  top: 32%;
+  right: -33px;
+}
